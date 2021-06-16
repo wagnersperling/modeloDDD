@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{8BBB3F09-2AC4-4C9B-B36D-817B00B245ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{855735A0-4F44-477F-A120-29F7B109368F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{309E4A2C-F011-4D21-A620-C764CC4969A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{C7984904-4BB9-4232-8E75-E5452F94E4B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{EF7D0AE6-1916-494A-AFC1-F8BD9D4C5905}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - CrossCutting", "4.1 - CrossCutting", "{ACEA3A13-0ABB-4EEA-A733-033B5DC54D9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - Data", "4.2 - Data", "{F7A1D295-70B2-4613-9074-A84456874F3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModeloDDD.MVC", "ProjetoModeloDDD.MVC\ProjetoModeloDDD.MVC.csproj", "{8B287787-4DD0-42C8-8DDC-988D4E7FE981}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B287787-4DD0-42C8-8DDC-988D4E7FE981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B287787-4DD0-42C8-8DDC-988D4E7FE981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B287787-4DD0-42C8-8DDC-988D4E7FE981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B287787-4DD0-42C8-8DDC-988D4E7FE981}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACEA3A13-0ABB-4EEA-A733-033B5DC54D9D} = {EF7D0AE6-1916-494A-AFC1-F8BD9D4C5905}
+		{F7A1D295-70B2-4613-9074-A84456874F3A} = {EF7D0AE6-1916-494A-AFC1-F8BD9D4C5905}
+		{8B287787-4DD0-42C8-8DDC-988D4E7FE981} = {8BBB3F09-2AC4-4C9B-B36D-817B00B245ED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D8B37BE-F0A3-4513-A5AD-2C8C24A353B3}
+	EndGlobalSection
+EndGlobal
