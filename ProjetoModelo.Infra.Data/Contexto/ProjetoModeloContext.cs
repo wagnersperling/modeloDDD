@@ -15,10 +15,10 @@ namespace ProjetoModeloDDD.Infra.Data.Contexto
 
         }
         public DbSet<Cliente> Clientes { get; set; }
+        public DbSet<Produto> Produtos { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            //base.OnModelCreating(modelBuilder);
+        {            
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
             modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
             modelBuilder.Conventions.Remove<ManyToManyCascadeDeleteConvention>();
@@ -34,7 +34,8 @@ namespace ProjetoModeloDDD.Infra.Data.Contexto
                 .Configure(p => p.HasMaxLength(100));
 
             modelBuilder.Configurations.Add(new ClienteConfiguration());
-
+            modelBuilder.Configurations.Add(new ProdutoConfiguration());
+            base.OnModelCreating(modelBuilder);
         }
 
         public override int SaveChanges()
