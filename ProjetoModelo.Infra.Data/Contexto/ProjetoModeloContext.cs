@@ -56,13 +56,3 @@ namespace ProjetoModeloDDD.Infra.Data.Contexto
         }
     }
 }
-
-
-// instalar o Entity Framework usando o Package Manager Console
-//Install-Package EntityFramework
-
-// abilitar o migration
-// Enable-Migrations
-
-// criar e atualizar o banco 
-//Update-Database -Verbose
