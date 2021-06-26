@@ -2,7 +2,6 @@
 using ProjetoModeloDDD.Application.Interface;
 using ProjetoModeloDDD.Domain.Entities;
 using ProjetoModeloDDD.MVC.viewModels;
-using System.Collections;
 using System.Collections.Generic;
 using System.Web.Mvc;
 

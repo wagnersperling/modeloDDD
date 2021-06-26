@@ -19,7 +19,6 @@ namespace ProjetoModeloDDD.Domain.Services
         {
             var listaClientes = clietes.Where(c => c.ClienteEspecial(c));
             return listaClientes;
-            //2:10
         }
     }
 }

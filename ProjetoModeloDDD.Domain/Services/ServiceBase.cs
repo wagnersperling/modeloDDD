@@ -43,9 +43,5 @@ namespace ProjetoModeloDDD.Domain.Services
         {
             _repository.Dispose();
         }
-
-        public interface IClienteService
-        {
-        }
     }
 }
