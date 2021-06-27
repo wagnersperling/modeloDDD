@@ -15,10 +15,10 @@ namespace ProjetoModelo.Infra.Data.EntytiConfig
 
             Property(p => p.Valor)
                 .IsRequired();
-
+            
             HasRequired(p => p.Cliente)
-                .WithMany()
-                .HasForeignKey(p => p.ClienteId);
+                .WithMany(c => c.Produtos)
+                .HasForeignKey(p => p.ClienteId);            
         }
     }
 }
