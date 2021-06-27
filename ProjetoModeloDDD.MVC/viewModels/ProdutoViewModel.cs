@@ -21,8 +21,8 @@ namespace ProjetoModeloDDD.MVC.viewModels
         [Required(ErrorMessage = "Preencha um valor")]
         public decimal Valor { get; set; }
 
-        [Display(Description = "Disponível?")]
-        public bool Disponivel { get; set; }
+        [Display(Name ="Produzido", Description = "Produzido?")]
+        public bool IsProduzido { get; set; }
         public int ClienteId { get; set; }        
         public virtual ClienteViewModel Cliente { get; set; }
     }

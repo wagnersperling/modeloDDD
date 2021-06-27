@@ -1,17 +1,11 @@
 ﻿@model IEnumerable<ProjetoModeloDDD.MVC.viewModels.ProdutoViewModel>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "ListaNaoProduzidos";
 }
 
-<h2>Lista de produtos</h2>
+<h2>Lista de produtos a produzir</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<p>
-    @Html.ActionLink("Listar pendentes de producão", "ListaNaoProduzidos")
-</p>
 <table class="table">
     <tr>
         <th>
@@ -52,3 +46,7 @@
 }
 
 </table>
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

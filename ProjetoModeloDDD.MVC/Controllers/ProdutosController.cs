@@ -92,5 +92,13 @@ namespace ProjetoModeloDDD.MVC.Controllers
             _produtoAppService.Remove(produto);
             return RedirectToAction("Index");
         }
+
+        public ActionResult ListaNaoProduzidos()
+        {
+            var produtos = _produtoAppService.BuscarPorNaoProduzidos();
+            var produtosViewModel = Mapper.Map<IEnumerable<Produto>, IEnumerable<ProdutoViewModel>>(produtos);
+            return View(produtosViewModel);
+        }
+
     }
 }

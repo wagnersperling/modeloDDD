@@ -19,5 +19,10 @@ namespace ProjetoModeloDDD.Domain.Services
         {
             return _produtoRepository.BuscarPorNome(nome);
         }
+
+        public IEnumerable<Produto> BuscarPorNaoProduzidos()
+        {
+            return _produtoRepository.BuscarPorNaoProduzidos();
+        }
     }
 }

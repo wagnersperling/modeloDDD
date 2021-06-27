@@ -14,6 +14,11 @@ namespace ProjetoModeloDDD.Application
             _produtoService = produtoService;
         }
 
+        public IEnumerable<Produto> BuscarPorNaoProduzidos()
+        {
+            return _produtoService.BuscarPorNaoProduzidos();
+        }
+
         public IEnumerable<Produto> BuscarPorNome(string nome)
         {
             return _produtoService.BuscarPorNome(nome);

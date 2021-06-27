@@ -7,7 +7,7 @@ namespace ProjetoModeloDDD.Domain.Entities
         public int ProdutoId { get; set; }
         public string Nome { get; set; }
         public decimal Valor { get; set; }
-        public bool Disponivel { get; set; }
+        public bool IsProduzido { get; set; }
         public int ClienteId { get; set; }
         //[NotMapped]
         public virtual Cliente Cliente { get; set; }
