@@ -19,7 +19,7 @@ Install-package Ninject.MVC5
 Install-Package EntityFramework
 ```
 
-**Abilitar o migration**
+**Habilitar o migration**
 ```
 Enable-Migrations
 ```
